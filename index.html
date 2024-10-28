@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home-page</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <div class="logo">M.Manusha</div>
+        <button class="menu-toggle" onclick="openMenu()">☰</button>
+        <nav id="sidebar" class="sidebar">
+          <button class="close-btn" onclick="closeMenu()">X</button>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="menu-2">
+        <div class="logo">M.Manusha</div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="home-section">
+      <div class="home-content">
+        <h1>Hi I'm Manusha Madubhshini</h1>
+        <h3>Fullstack Developer</h3>
+        <p>
+          A self-taught developer,I make meaningful and delightful digital
+          products<br />
+          that create an equilibrium between user needs and business goals.<br />
+          Reach out if you’d like to learn more!
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+      <div class="home-image">
+        <img
+          src="/assets/images/girl_images-removebg-preview.png"
+          alt="portfolio-image"
+        />
+      </div>
+    </section>
+    <section class="about-section">
+      <div class="about-image">
+        <img
+          src="/assets/images/girl_images-removebg-preview.png"
+          alt="portfolio-image"
+        />
+      </div>
+      <div class="about-content">
+        <h2>About<span> Me</span></h2>
+        <h3>Web Developer</h3>
+        <p>
+          I am a software engineering student at IJSE and currently completing
+          my second semester.<br />
+          An enthusiastic student with highly motivated and studying Software
+          Engineering at IJSE.<br />
+          Eager to learn new technologies and always willing to innovate the new
+          things which can<br />
+          improve the existing technology. An easy- going person with a positive
+          attitude and good <br />
+          team working ability.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="project-section">
+      <h2>My <span> Project</span></h2>
+      <div class="project-content">
+        <div class="box">
+          <img src="/assets/images/case-3.jpg" alt="project-1" />
+          <h3>Project 1</h3>
+          <p>
+            This is a project made to learn the programming languages by
+            building an standalone application.
+          </p>
+          <a href="#" class="project-btn">Read More</a>
+        </div>
+        <div class="box">
+          <img src="/assets/images/card-4.jpg" alt="project-2" />
+          <h3>Project 2</h3>
+          <p>
+            This is a project made to learn the programming languages by
+            building an standalone application.
+          </p>
+          <a href="#" class="project-btn">Read More</a>
+        </div>
+        <div class="box">
+          <img src="/assets/images/card-5.jpg" alt="project-3" />
+          <h3>Project 3</h3>
+          <p>
+            This is a project made to learn the programming languages by
+            building an standalone application.
+          </p>
+          <a href="#" class="project-btn">Read More</a>
+        </div>
+      </div>
+    </section>
+    <section class="educaton-section">
+      <h2>My <span>Education</span></h2>
+      <div class="education-row">
+        <div class="education-coloum">
+          <div class="education-box">
+            <div class="education-content">
+              <div class="content">
+                <h3>Telijjawila Royal Collage</h3>
+                <p>
+                  <i
+                    class="fa-solid fa-calendar-days fa-sm"
+                    style="color: #00ff51"
+                  ></i>
+                  2009-2019
+                </p>
+                High school (G.C.E O/L examination)
+              </div>
+            </div>
+            <div class="education-content">
+              <div class="content">
+                <h3>Matara Cental Collage</h3>
+                <p>
+                  <i
+                    class="fa-solid fa-calendar-days fa-sm"
+                    style="color: #00ff51"
+                  ></i>
+                  2020-2022
+                </p>
+                High school (G.C.E A/L examination)
+              </div>
+            </div>
+            <div class="education-content">
+              <div class="content">
+                <h3>IJSE Institute Of Software Engineering</h3>
+                <p>
+                  <i
+                    class="fa-solid fa-calendar-days fa-sm"
+                    style="color: #00ff51"
+                  ></i>
+                  2023-
+                </p>
+                Software engineering
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section">
+      <div class="contact-content">
+        <h2>Contact<span> Me</span></h2>
+        <form>
+          <input type="text" id="name" name="fullname" placeholder="FullName" />
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Phone Number"
+            required
+            maxlength="10"
+          />
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject"
+          />
+
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Meaasage"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <a href="#" class="btn contact-btn">Read More</a>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div>@Manusha Madubhshini | All right Reserved</div>
+      <a href="#"><i class="fa-solid fa-arrow-up fa-xl"></i></a>
+    </footer>
+    <script>
+      function openMenu() {
+        const sidebar = document.getElementById("sidebar");
+        sidebar.classList.add("open");
+      }
+
+      function closeMenu() {
+        const sidebar = document.getElementById("sidebar");
+        sidebar.classList.remove("open");
+      }
+    </script>
+  </body>
+</html>
