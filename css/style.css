@@ -18,6 +18,11 @@ header {
   background: linear-gradient(to right, #1f242d, #00ff51, #1f242d);
   padding: 3px;
 }
+#menu-icon {
+  font-size: 1.5rem;
+  color: white;
+  display: none;
+}
 .menu {
   display: none;
 }
@@ -203,7 +208,7 @@ h2 {
   color: #00ff51;
 }
 .contact-section {
-  height: 100vh;
+  height: 111vh;
   background-color: #1f242d;
   display: flex;
   justify-content: center;
@@ -232,7 +237,7 @@ textarea {
   margin-top: 20px;
 }
 .project-section {
-  height: 100vh;
+  height: 110vh;
   background-color: #1f242d;
   display: flex;
   justify-content: center;
@@ -305,14 +310,14 @@ textarea {
 }
 .project-section h2 {
   position: absolute;
-  top: 10%;
+  top: 15%;
   font-size: 35px;
 }
 .project-section span {
   color: #00ff51;
 }
 .educaton-section {
-  height: 100vh;
+  height: 112vh;
   background-color: #1f242d;
   display: flex;
   flex-direction: column;
@@ -416,7 +421,7 @@ footer div {
     width: 200px;
     height: 200px;
     position: relative;
-    top: 10%;
+    top: 15%;
   }
   .home-image::after {
     content: "";
@@ -427,7 +432,7 @@ footer div {
     max-width: 600px;
     color: white;
     text-align: left;
-    margin-bottom: 126px;
+    margin-bottom: 60px;
   }
   .home-content h1 {
     font-size: 30px;
@@ -475,24 +480,24 @@ footer div {
   }
   .about-content {
     margin-bottom: -75px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .about-content h3 {
     font-size: 20px;
     margin-bottom: 5px;
-    margin-left: 30px;
+    margin-left: 17px;
   }
   .about-content h2 {
     font-size: 25px;
     margin-top: 44px;
-    margin-left: 44px;
+    margin-left: 31px;
   }
   .about-content p {
     font-size: 10px;
     margin-bottom: -15px;
   }
   .about-content a.btn {
-    margin-left: 60px;
+    margin-left: 46px;
   }
   .project-section {
     height: 200vh;
@@ -505,19 +510,26 @@ footer div {
   }
   .project-section h2 {
     position: absolute;
-    top: 8%;
+    top: 5%;
     font-size: 25px;
+  }
+  .education-box .education-content {
+    position: relative !important;
+    right: 6% !important;
   }
   .educaton-section {
     height: 120vh;
     font-size: 15px;
   }
+
   .project-content {
     margin-top: 50px;
   }
   .education-coloum .education-box {
     border-left: 0rem solid #00ff51;
     padding: -2px;
+    position: relative;
+    left: 0;
   }
   .education-box .education-content::before {
     display: none;
@@ -553,7 +565,7 @@ footer div {
   .home-image {
     width: 200px;
     height: 200px;
-    top: 13%;
+    top: 17%;
   }
   .home-image::after {
     content: "";
@@ -564,7 +576,7 @@ footer div {
     max-width: 600px;
     color: white;
     text-align: left;
-    margin-bottom: 126px;
+    margin-bottom: 50px;
   }
   .home-content h1 {
     font-size: 30px;
@@ -609,7 +621,7 @@ footer div {
   }
   .about-content {
     margin-bottom: 70px;
-    margin-left: 40px;
+    margin-left: 25px;
   }
   .about-content h3 {
     font-size: 20px;
@@ -640,7 +652,7 @@ footer div {
   }
   .project-section h2 {
     position: absolute;
-    top: 12%;
+    top: 9%;
     font-size: 25px;
   }
   .educaton-section {
@@ -649,6 +661,10 @@ footer div {
   }
   .project-content {
     margin-top: 50px;
+  }
+  .education-box .education-content {
+    position: relative !important;
+    right: 6% !important;
   }
   .education-coloum .education-box {
     border-left: 0rem solid #00ff51;
@@ -700,7 +716,7 @@ footer div {
     max-width: 600px;
     color: white;
     text-align: left;
-    margin-bottom: 220px;
+    margin-bottom: 115px;
   }
   .home-content h1 {
     font-size: 35px;
@@ -743,11 +759,10 @@ footer div {
     width: 250px;
     height: 250px;
     margin-bottom: 50px;
-    bottom: 13%;
   }
   .about-content {
     margin-bottom: 30px;
-    margin-left: 40px;
+    margin-left: 30px;
   }
   .about-content h3 {
     font-size: 25px;
@@ -765,7 +780,7 @@ footer div {
     align-items: center !important;
   }
   .about-content a.btn {
-    margin-left: 90px;
+    margin-left: 60px;
   }
   .project-section {
     height: 220vh;
@@ -778,7 +793,7 @@ footer div {
   }
   .project-section h2 {
     position: absolute;
-    top: 12%;
+    top: 8%;
     font-size: 30px;
   }
   .educaton-section {
@@ -787,6 +802,10 @@ footer div {
   }
   .project-content {
     margin-top: 50px;
+  }
+  .education-box .education-content {
+    position: relative !important;
+    right: 6% !important;
   }
   .education-coloum .education-box {
     border-left: 0rem solid #00ff51;
@@ -883,7 +902,7 @@ footer div {
   .about-image {
     width: 350px;
     height: 350px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .about-content {
     margin-bottom: 30px;
@@ -915,7 +934,7 @@ footer div {
   }
   .project-section h2 {
     position: absolute;
-    top: 12%;
+    top: 8%;
     font-size: 30px;
   }
   .educaton-section {
@@ -924,6 +943,10 @@ footer div {
   }
   .project-content {
     margin-top: 50px;
+  }
+  .education-box .education-content {
+    position: relative !important;
+    right: 6% !important;
   }
   .education-coloum .education-box {
     border-left: 0rem solid #00ff51;
@@ -1088,88 +1111,77 @@ footer div {
     margin-left: 50px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 100px) and (max-width: 768px) {
+  #menu-icon {
+    display: block;
+    position: relative;
+    right: 15%;
+    cursor: pointer;
+  }
   header {
+    display: block;
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
   }
-
-  /* Sidebar styling */
-  .sidebar {
-    position: fixed;
-    top: 0;
-    right: -250px;
-    width: 250px;
-    height: 320px; /* Set height to 300px */
-    background-color: rgba(17, 17, 17, 0.5); /* Set opacity to 0.5 */
-    padding-top: 60px;
-    transition: right 0.3s;
-    display: flex;
-    flex-direction: column;
+  .nav-link {
+    display: none;
   }
-
-  .sidebar ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .sidebar ul li {
-    padding: 8px 16px;
-    text-align: ;
-  }
-
-  .sidebar ul li a {
-    color: #00ff51;
-    text-decoration: none;
-    font-size: 1.1rem;
-  }
-
-  .sidebar ul li a:hover {
-    color: white;
-  }
-
-  /* Sidebar open state */
-  .sidebar.open {
-    right: 0;
-  }
-
-  /* Toggle button style */
-  .menu-toggle {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    color: #fff;
-    cursor: pointer;
-  }
-  .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-  .sidebar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    text-decoration: none;
-    margin-bottom: 10px;
-  }
-  .menu {
+  #menu-icon {
     display: block;
   }
-  .menu-2 {
+  nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 50%;
+    background: rgba(44, 154, 13, 0.2);
+    backdrop-filter: blur(18px);
+    padding: 0.5rem 1.5rem;
+    border-bottom-left-radius: 1rem;
+    display: block;
+    text-align: left;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: -18%;
+  }
+
+  nav a {
+    display: block;
+    font-size: 12px;
+    margin: 0.4rem 0;
+    color: white;
+  }
+  nav .home {
+    border-bottom: 3px solid #00ff51;
+    color: #00ff51;
+  }
+  nav a:hover {
+    border-bottom: 3px solid #00ff51;
+  }
+  .logo {
+    font-size: 17px;
+    position: relative;
+    right: 105px;
+  }
+  nav.active {
+    display: block;
+  }
+  nav {
     display: none;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  #menu-icon {
+    display: block;
+    position: relative;
+    right: 8%;
+    cursor: pointer;
+  }
+  nav ul {
+    position: relative;
+    margin-left: -11%;
   }
 }
